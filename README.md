@@ -1,8 +1,42 @@
-# React + Vite
+# Movie App with React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple movie app built using React and React Router. It displays a list of movie cards, and when you click on a movie card, it takes you to a detailed page showing the movie description and an embedded trailer.
 
-Currently, two official plugins are available:
+## Features
+- Displays a list of movie cards on the home page.
+- Allows navigation to a detailed movie page showing the description and trailer.
+- Includes a "Back to Home" button to return to the home page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+- Node.js
+- React
+- React Router
+- Tailwind CSS
+
+## Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd movie-app
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Open the app in your browser:
+
+arduino
+Copy code
+http://localhost:3000
+License
+This project is licensed under the MIT License.
